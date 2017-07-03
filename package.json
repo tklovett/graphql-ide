@@ -21,6 +21,7 @@
     "url": "http://github.com/redound/graphql-ide.git"
   },
   "dependencies": {
+    "@types/es6-promise": "0.0.32",
     "camel-case": "^3.0.0",
     "classnames": "^2.2.5",
     "electron-devtools-installer": "^2.0.1",
@@ -53,6 +54,7 @@
     "vex-js": "^3.0.0"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^3.2.1",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-plugin-syntax-async-functions": "^6.13.0",
@@ -73,7 +75,9 @@
     "json-loader": "^0.5.4",
     "minimist": "^1.2.0",
     "node-sass": "^3.13.0",
+    "source-map-loader": "^0.2.1",
     "style-loader": "^0.13.1",
+    "typescript": "^2.4.1",
     "url-loader": "^0.5.7",
     "webpack": "^3.0.0"
   }

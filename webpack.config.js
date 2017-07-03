@@ -3,6 +3,7 @@ var webpack = require('webpack')
 
 module.exports = {
     // devtool: 'eval-source-map',
+    devtool: "source-map",
     entry: {
         vendor: [
             'babel-polyfill',
@@ -24,26 +25,19 @@ module.exports = {
             path.join(__dirname, 'src'),
             'node_modules'
         ],
-        extensions: ['.webpack.js', '.web.js', '.js', '.jsx']
+        extensions: ['.webpack.js', '.web.js', '.js', '.jsx', '.ts', '.tsx']
     },
     module: {
         rules: [
             {
-                test: /\.jsx?$/,
+                test: /\.([tj])sx?$/,
                 exclude: /node_modules/,
-                loader: 'babel-loader',
-                query: {
-                    presets: [
-                        'babel-preset-es2015',
-                        'babel-preset-react'
-                    ],
-                    plugins: [
-                        'babel-plugin-transform-class-properties',
-                        'babel-plugin-syntax-async-functions',
-                        'babel-plugin-transform-regenerator',
-                        'babel-plugin-transform-object-rest-spread'
-                    ]
-                }
+                loader: 'awesome-typescript-loader',
+            },
+            {
+                enforce: "pre",
+                test: /\.js$/,
+                loader: "source-map-loader"
             },
             {
                 test: /\.css$/,
