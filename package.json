@@ -16,10 +16,7 @@
   "bugs": {
     "url": "https://github.com/redound/graphql-ide/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/redound/graphql-ide.git"
-  },
+  "repository": "http://github.com/redound/graphql-ide.git",
   "dependencies": {
     "@types/es6-promise": "0.0.32",
     "camel-case": "^3.0.0",

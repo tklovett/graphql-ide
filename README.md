@@ -28,7 +28,7 @@ Unpack the latest app from the [releases][0] tab
 Releases available soon, for now build the binary using
 
 ````
-npm install
+yarn install
 npm run package --all
 ````
 
