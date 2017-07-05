@@ -1,12 +1,8 @@
-<p align="center">
-    <img alt="GraphQL IDE" src="https://rawgit.com/redound/graphql-ide/cbb88aa/assets/logo.svg" width="440">
-</p>
+<img src="https://rawgit.com/tklovett/graphql-ide/master/assets/logo.svg" alt="GraphQL IDE" align="center" width="440">
 
-<p align="center">
-  An extensive IDE for exploring GraphQL API's
-</p>
+An extensive IDE for exploring GraphQL APIs. Based on [GraphiQL] wrapped in [Electron].
 
----
+-----------
 
 ## Features
 
@@ -44,24 +40,27 @@ Please file issues under GitHub, or submit a pull request if you'd like to direc
 
 ## Screenshots
 
-<h3 align="center">
-Execute queries
-</h3>
-![Execute queries](assets/screenshot-1.png)
+### Execute Queries
 
-<h3 align="center">
-Custom headers
-</h3>
-![Custom headers](assets/screenshot-2.png)
+![Execute queries]
 
-<h3 align="center">
-Environment variables for dynamic headers
-</h3>
-![Custom headers](assets/screenshot-3.png)
+### Custom Headers
 
-<h3 align="center">
-Manage projects
-</h3>
-![Manage projects](assets/screenshot-4.png)
+![Custom headers]
+
+### Environment Variables for Dynamic Headers
+
+![Custom headers]
+
+### Manage Projects
+
+![Manage projects]
+
 
 [0]: https://github.com/redound/graphql-ide/releases
+[GraphiQL]: https://github.com/graphql/graphiql
+[Electron]: https://electron.atom.io/
+[Execute queries]: https://raw.githubusercontent.com/tklovett/graphql-ide/readme/assets/screenshot-1.png
+[Custom headers]: https://raw.githubusercontent.com/tklovett/graphql-ide/readme/assets/screenshot-2.png
+[Custom headers]: https://raw.githubusercontent.com/tklovett/graphql-ide/readme/assets/screenshot-3.png
+[Manage projects]: https://raw.githubusercontent.com/tklovett/graphql-ide/readme/assets/screenshot-4.png
